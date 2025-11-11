@@ -1,4 +1,4 @@
-   ## DSA
+    ## DSA
 💡 DSA Made Simple
 
 1. Array:
