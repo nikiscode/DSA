@@ -14,7 +14,7 @@ LIFO – Last In, First Out. Example: Undo feature, plates stack.
 FIFO – First In, First Out. Example: Ticket line, printer queue.
 
 5. Tree:
-Hierarchical structure with parent and child nodes. Example: family tree, folder structure.
+Hierarchical st ructure with parent and child nodes. Example: family tree, folder structure.
 
 6. Graph:
 Collection of nodes connected by edges. Used in maps, networks, social media.
