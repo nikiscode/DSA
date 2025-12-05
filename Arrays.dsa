@@ -17,7 +17,7 @@ Simple and easy to use.
 Limitations:
 
 Fixed size once declared.
-
+ 
 Insertion and deletion are costly (O(n) time).
 
 
