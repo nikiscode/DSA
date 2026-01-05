@@ -5,7 +5,7 @@ Indexing: Elements are accessed using an index (0-based in C).
 Syntax in C:
 
 int arr[5] = {1, 2, 3, 4, 5};
-
+ 
 Advantages:
 
 Fast access using index (O(1) time).
