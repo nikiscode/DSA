@@ -1,2 +1,48 @@
-    //Quick sort
-swapping of number 
+#Quick_sort
+Quick Sort is a divide and conquer sorting algorithm.
+It works by choosing a pivot element, placing it in its correct position, and arranging all smaller elements to the left and larger elements to the right.
+Then it recursively sorts the left and right parts.
+
+#Example
+Array:
+[6, 3, 8, 5, 2]
+Step 1: Choose Pivot
+Let the last element (2) be the pivot.
+Partitioning:
+Elements smaller than 2 → none
+Elements larger than 2 → [6, 3, 8, 5]
+After placing pivot:
+[2, 3, 8, 5 ,6]
+Step 2: Apply Quick Sort to subarrays
+Left of pivot → []
+Right of pivot → [3, 8, 5, 6]
+Choose pivot = 6
+Partition:
+[3, 5, 6, 8]
+Final Sorted Array:
+[2, 3, 5, 6, 8]
+
+##Pseudocode (Simple)
+QuickSort(array, low, high)
+    if low < high
+        pivotIndex = Partition(array, low, high)
+        QuickSort(array, low, pivotIndex - 1)
+        QuickSort(array, pivotIndex + 1, high)
+Partition(array, low, high)
+    pivot = array[high]
+    i = low - 1
+
+    for j = low to high - 1
+        if array[j] < pivot
+            i = i + 1
+            swap array[i] and array[j]
+
+    swap array[i + 1] and array[high]
+    return i + 1
+
+
+*Very fast in practice
+*Average time complexity: O(n log n)
+*Worst case: O(n²) (bad pivot choice)
+*Does not require extra memory
+Widely used sorting algorithm
