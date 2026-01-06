@@ -1,1 +1,44 @@
+##Binary_search
+Binary search is a fast way to find a value in a sorted list.
+Instead of checking every element one by one, it:
+Looks at the middle element
+If the target is equal → found
+If the target is smaller → search the left half
+If the target is larger → search the right half
+Repeat until found or the list ends
 
+#Important: The array must be sorted.
+
+**Example
+Array: [2, 4, 6, 8, 10]
+Target: 6
+
+#Steps:
+Middle = 6 → match found 
+Another target example: 10
+Middle = 6 → target is bigger → go right
+Middle = 8 → target is bigger → go right
+Middle = 10 → found 
+
+##Pseudocode
+BinarySearch(array, target):
+    left = 0
+    right = length(array) - 1
+
+    while left <= right:
+        mid = (left + right) / 2
+
+        if array[mid] == target:
+            return mid
+
+        else if target < array[mid]:
+            right = mid - 1
+
+        else:
+            left = mid + 1
+
+    return -1   // target not found
+
+*Time Complexity: O(log n) 
+*Works only on sorted data
+*Much faster than linear search for large datasets
