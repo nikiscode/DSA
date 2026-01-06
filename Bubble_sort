@@ -16,3 +16,15 @@ Compare 3 & 2 → swap → [2, 3, 4, 5]
 Compare 3 & 4 → no swap
 
 ##Array is now sorted.
+
+##Pseudocode
+BubbleSort(array, n)
+    for i = 0 to n-1
+        for j = 0 to n-i-2
+            if array[j] > array[j+1]
+                swap array[j] and array[j+1]
+
+*Simple and easy to understand
+*Compares adjacent elements
+*Time Complexity: O(n²) (not efficient for large data)
+*Best for learning sorting concepts
