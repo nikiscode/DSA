@@ -1,1 +1,36 @@
+#Merge_sort
+Merge Sort is a divide and conquer sorting algorithm.
+It works by dividing the array into smaller parts, sorting them, and then merging them back together in order.
 
+#Example
+#Array:
+[8, 3, 5, 2]
+Step 1: Divide
+[8, 3, 5, 2]
+→ [8, 3]   [5, 2]
+→ [8] [3] [5] [2]
+Step 2: Merge (sort while merging)
+[8] + [3] → [3, 8]
+[5] + [2] → [2, 5]
+Step 3: Final Merge
+[3, 8] + [2, 5] → [2, 3, 5, 8]
+
+##Pseudocode 
+MergeSort(array, left, right)
+    if left < right
+        mid = (left + right) / 2
+        MergeSort(array, left, mid)
+        MergeSort(array, mid + 1, right)
+        Merge(array, left, mid, right)
+
+Merge(array, left, mid, right)
+    create temp arrays L and R
+    copy data into L and R
+    merge L and R back into array in sorted order
+
+
+*Uses Divide and Conquer
+*Always runs in O(n log n) time
+*Requires extra memory
+*Very efficient for large datasets
+*Used in real-world applications
