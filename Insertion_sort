@@ -1,7 +1,6 @@
 //insertion_sort
 Insertion Sort works the way you sort playing cards in your hand.
 It takes one element at a time and inserts it into its correct position in the already sorted part of the array.
-
 ##Example
 Array:
 [5, 3, 4, 1]
