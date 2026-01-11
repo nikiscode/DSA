@@ -1,4 +1,4 @@
-#Quick_sort
+//Quick_sort
 Quick Sort is a divide and conquer sorting algorithm.
 It works by choosing a pivot element, placing it in its correct position, and arranging all smaller elements to the left and larger elements to the right.
 Then it recursively sorts the left and right parts.
