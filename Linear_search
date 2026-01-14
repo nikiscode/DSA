@@ -1,4 +1,4 @@
-//Linear_search
+ //Linear_search
 Linear search is the simplest searching technique.
 It checks each element one by one until the target value is found or the list ends.
 
