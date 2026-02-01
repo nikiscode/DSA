@@ -1,4 +1,4 @@
-#Merge_sort
+##Merge_sort
 Merge Sort is a divide and conquer sorting algorithm.
 It works by dividing the array into smaller parts, sorting them, and then merging them back together in order.
 
