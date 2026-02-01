@@ -1,1 +1,10 @@
 //heaps concepts 
+A Heap is a specialized tree-based data structure that satisfies 
+the heap property and is widely used in algorithms such as 
+Graph Algorithms.
+1. Definition of Heap
+A Heap is a complete binary tree where each node satisfies the 
+heap-order property.
+2. Types of Heap:
+• Min Heap
+• Max Heap
