@@ -1,5 +1,5 @@
 //DSA
-💡 DSA Made Simple
+DSA Made Simple
 
 1. Array:
 Stores elements in a continuous block of memory. Easy to access using index.
