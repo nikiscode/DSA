@@ -1,10 +1,97 @@
 //heaps concepts 
+
 A Heap is a specialized tree-based data structure that satisfies 
 the heap property and is widely used in algorithms such as 
-Graph Algorithms.
+
+Graph Algorithms:
+
 1. Definition of Heap
 A Heap is a complete binary tree where each node satisfies the 
 heap-order property.
+
 2. Types of Heap:
 • Min Heap
 • Max Heap
+
+A) Max Heap: Parent node value is always greater than or equal 
+
+to its children.
+
+B) Min Heap: Parent node value is always smaller than or equal 
+
+to its children.
+
+3. Properties of Heap
+
+Structural Property:
+
+- Heap is a complete binary tree.
+
+- Height of heap is O(log n).
+
+Heap Order Property:
+
+- Max Heap: Parent ≥ Child
+
+- Min Heap: Parent ≤ Child
+
+4. Array Representation of Heap
+
+For 0-based indexing:
+Parent(i) = (i - 1) // 2
+
+Left Child(i) = 2i + 1
+
+Right Child(i) = 2i + 2
+
+5. Heap Operations
+
+Insert:
+
+- Insert element at the end.
+
+- Heapify upward.
+
+Time Complexity: O(log n)
+
+Delete (Extract Max/Min):
+
+- Replace root with last element.
+
+- Heapify downward.
+
+Time Complexity: O(log n)
+
+Peek:
+
+- Access root element.
+
+Time Complexity: O(1)
+
+6. Heapify Operation
+
+Heapify is the process of maintaining heap property.
+
+Time Complexity: O(log n)
+
+7. Build Heap
+
+Bottom-up approach:Start heapifying from last non-leaf node.
+
+Time Complexity: O(n)
+
+Array Representation of Heap
+
+Heaps are typically stored in an array (no pointers needed).
+
+Example:
+
+Array: [50, 30, 40, 10, 20, 35, 25]
+
+Index map:
+
+• index 0 → 50 (root)
+
+• children of 0 → index 1 (30) and 2 (40)
+
+• children of 1 → index 3 (10) and 4 (20)
