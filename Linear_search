@@ -2,9 +2,11 @@
 Linear search is the simplest searching technique.
 It checks each element one by one until the target value is found or the list ends.
 ## No sorting required.
-*Example
+
+Example
 Array: [5, 3, 9, 1, 7]
 Target: 1
+
 *Steps:
 Check 5 → not match
 Check 3 → not match
