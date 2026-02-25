@@ -6,20 +6,16 @@ If the target is equal → found
 If the target is smaller → search the left half
 If the target is larger → search the right half
 Repeat until found or the list ends
-
-#Important: The array must be sorted.
-
+##Important: The array must be sorted.
 **Example
 Array: [2, 4, 6, 8, 10]
 Target: 6
-
 #Steps:
 Middle = 6 → match found 
 Another target example: 10
 Middle = 6 → target is bigger → go right
 Middle = 8 → target is bigger → go right
 Middle = 10 → found 
-
 ##Pseudocode
 BinarySearch(array, target):
     left = 0
