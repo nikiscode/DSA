@@ -1,17 +1,20 @@
 //Merge_sort
 Merge Sort is a divide and conquer sorting algorithm.
 It works by dividing the array into smaller parts, sorting them, and then merging them back together in order.
+##Example
 
-#Example
 #Array:
 [8, 3, 5, 2]
+
 Step 1: Divide
 [8, 3, 5, 2]
 → [8, 3]   [5, 2]
 → [8] [3] [5] [2]
+
 Step 2: Merge (sort while merging)
 [8] + [3] → [3, 8]
 [5] + [2] → [2, 5]
+
 Step 3: Final Merge
 [3, 8] + [2, 5] → [2, 3, 5, 8]
 
